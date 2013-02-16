@@ -1,0 +1,85 @@
+@font-face {
+  font-family: bigFont;
+  src:  url("http://project.mrofo.com/assets/fonts/LondonBetween.ttf");
+}
+
+@font-face {
+  font-family: regFont;
+  src:  url("http://project.mrofo.com/assets/fonts/GeosansLight.ttf");
+}
+
+body {
+  background-color: #ffde03;
+}
+
+img.topBar {
+  display: block;
+  top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img.bottomBarHome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+img.logo {
+  float: left;
+  background-color: #000000;
+  /*margin-top: 20px;*/
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 18%;
+  margin-right: auto;
+  width: 50%;
+  min-width: 300px;
+}
+
+#headerBox {
+  overflow: auto;
+  margin-top: 0px;
+  height: 30%;
+  width: 100%;
+  background-color: #000000;
+}
+
+/*table.navStack {
+  table-layout: fixed;
+}*/
+
+a:hover {
+  color:#FFFFFF;
+}
+
+a.learn, a.advise, a.about {
+  color: #000000;
+  font-family: bigFont;
+  background-color: #ffde03;
+  font-size: 40px;
+  padding: 10px;
+  margin-left: 1%;
+  line-height: 155%;
+  text-decoration: none;
+}
+
+#legal {
+  margin-top: 15px;
+  text-align: center;
+  font-family: regFont;
+  font-size: 16px;
+}
+
+#upDate {
+  margin-top: 5px;
+  text-align: center;
+  font-family: regFont;
+  font-size: 10px;
+}
+
+p.test {
+  display: none;
+}
